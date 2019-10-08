@@ -15,5 +15,9 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-
+  contacts.each do |name, info|
+    info.each do |a, b|
+      binding.pry
+    end
+  end
 end
